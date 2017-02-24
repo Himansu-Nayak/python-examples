@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-#The os module exposes various operating system related details and
-#functionality. In this module we will explore some of the more commonly
-#needed functionality
+# The os module exposes various operating system related details and
+# functionality. In this module we will explore some of the more commonly
+# needed functionality
 
 import os
 
