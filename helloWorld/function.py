@@ -1,13 +1,15 @@
 #!/usr/bin/python
 
+# in python its pass-by-object-reference or Object references are passed by value
+
 maxCalled = 0
 minCalled = 0
 
 
 def max_val(a, b):
-    '''Returns the maximum of the specified arguments.
+    ''' Returns the maximum of the specified arguments.
 
-    Arguments must be numbers'''
+    Arguments must be numbers '''
 
     global maxCalled
     maxCalled = maxCalled + 1
