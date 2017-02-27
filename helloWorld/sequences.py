@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
-# Note: lists, tuples, and strings are all sequences in Python. Sequences allow
+# Note: lists, tuples, strings, unicode, buffer and xrange are all sequences in Python. Sequences allow
 # indexing and slicing operations
 # When a sequence is sliced the resulting object is a brand new object
+# https://docs.python.org/2.4/lib/typesseq.html
 
 jvm_langs = ['Java', 'Jython', 'Groovy', 'JRuby', 'Scala', 'Clojure']
 print('The first JVM language was ', jvm_langs[0])

@@ -3,6 +3,7 @@
 jvm_langs = ['Java', 'Jython', 'Groovy', 'Scala', 'Jruby']
 
 # How many JVM langs do you know ?
+# size of the list
 print('I know of ', jvm_langs.__len__(), 'langs that can run on the JVM')
 
 # It's not a good idea to directly us __xxx__ methods
