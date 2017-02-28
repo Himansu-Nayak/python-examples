@@ -1,7 +1,8 @@
 #!/usr/bin/python
-import time
 import calendar
 import datetime
+import time
+
 import dateutil
 
 # install python dateutil pkg - python -m pip install python-dateutil
@@ -19,4 +20,3 @@ print(cal)
 print(datetime.datetime.now())
 print(datetime.datetime.today())
 print(dateutil.__version__.format(datetime.today))
-

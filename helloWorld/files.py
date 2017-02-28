@@ -11,7 +11,7 @@ def read_file(name):
     try:
         f = open(name, 'r')
         line = f.readline()
-        while (len(line) != 0):
+        while len(line) != 0:
             print(line)  # notice the , to prevent printing a newline character
             line = f.readline()
     finally:
@@ -50,4 +50,4 @@ try:
     # Remove the file so we do not pollute the disk
     os.remove(name)
 except Exception as e:
-    print('An error ocurred in this program ', e)
+    print('An error occurred in this program ', e)

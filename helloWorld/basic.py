@@ -1,7 +1,7 @@
 #!/usr/bin/python
-#python -h
+# python -h
 
-#if-elif-else block
+# if-elif-else block
 if 2 + 3 == 5:
     print("himansu")
     print("nayak")
@@ -11,7 +11,7 @@ else:
     print("else block")
 print("This is outside the if-elif-else block")
 
-#multiline string
+# multiline string
 multiLineString = "Expression 1" + \
                   "Expression 2" + \
                   "Expression 3"
@@ -29,16 +29,17 @@ multiLineString5 = ("Expression 1 inside () array",
                     "Expression 2 inside () array")
 print(multiLineString3, multiLineString4, multiLineString5)
 
-#user input
+# user input
 input("Enter any key to exit")
 
-#multi statement
-print("multi statement 1"); print("multi statement 2")
+# multi statement
+print("multi statement 1");
+print("multi statement 2")
 
-#variable
+# variable
 a = b = c = 1
-print(a,b,c)
+print(a, b, c)
 
 var = 3
 del var
-#print(var) will throw error as var is removed from the memory
+# print(var) will throw error as var is removed from the memory

@@ -46,16 +46,16 @@ if ('Hello' in greeting):
 if (greeting.find('Hello') != -1):
     print('This greeting seems to be in English')
 
-#update string
+# update string
 greeting2 = greeting[:21] + "himansu "
 print(greeting)
 print(greeting2)
 
-#special operators
-print("himansu"*2)
+# special operators
+print("himansu" * 2)
 print("my age is %s", 30)
 
-#build-in function
+# build-in function
 print("himansu".upper())
 print("HIMANSU".lower())
 print("himansu".capitalize())

@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+
 def printing(name, *fruits):
     print("Name: ", name)
     for fruit in fruits:

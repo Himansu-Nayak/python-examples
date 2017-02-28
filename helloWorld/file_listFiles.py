@@ -2,6 +2,7 @@
 
 import os
 
+
 def print_directory_contents(sPath):
     for sChild in os.listdir(sPath):
         sChildPath = os.path.join(sPath, sChild)

@@ -12,11 +12,11 @@ def max_val(a, b):
     Arguments must be numbers '''
 
     global maxCalled
-    maxCalled = maxCalled + 1
+    maxCalled += 1
 
-    if (a > b):
+    if a > b:
         return a
-    elif (b > a):
+    elif b > a:
         return b
     else:
         return a
@@ -28,11 +28,11 @@ def min_val(a, b):
     Arguments must be numbers'''
 
     global minCalled
-    minCalled = minCalled + 1
+    minCalled += 1
 
-    if (a < b):
+    if a < b:
         return a
-    elif (b < a):
+    elif b < a:
         return b
     else:
         return a
@@ -42,7 +42,7 @@ def print_usage(init_msg, max_val=True, min_val=True):
     global maxCalled, minCalled
     print(init_msg)
     if max_val:
-        print('functin max_val was called', maxCalled, ' times')
+        print('function max_val was called', maxCalled, ' times')
     if min_val:
         print('function min_val was called', minCalled, ' times')
 

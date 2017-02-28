@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+
 class InvoiceItem:
     "An item within the invoice"
 

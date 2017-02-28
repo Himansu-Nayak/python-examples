@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-def printing(name, age = 30):
+
+def printing(name, age=30):
     print("Name: ", name)
     print("Age ", age)
     return

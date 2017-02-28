@@ -4,7 +4,7 @@
 i = 3
 print(i)
 
-# This physical line actually contrains two logical lines
+# This physical line actually contains two logical lines
 i = 8;
 j = 0
 print(i + j)
