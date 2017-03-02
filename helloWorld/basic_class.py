@@ -15,3 +15,7 @@ class Employee:
 
     def displayEmployee(self):
         print("Name : ", self.name, ", Salary: ", self.salary)
+
+    @staticmethod
+    def static():
+        print("This is a static method")

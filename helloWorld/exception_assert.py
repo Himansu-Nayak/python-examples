@@ -1,24 +1,11 @@
 #!/usr/bin/python
 
-class MyMethodNotImplementedError(Exception):
-    def __init__(self):
-        Exception.__init__(self)
+
+def kelvinToFahrenheit(temperature):
+    assert ((temperature >= 0), "Colder than absolute zero!")
+    return ((temperature - 273) * 1.8) + 32
 
 
-# We will raise an Error if this method is called. The purpose is to show which
-# Error to use to signal that a method os not yet implemented and also to show
-# how to raise Exceptions
-def some_method():
-    raise NotImplementedError
-
-
-def another_method():
-    raise MyMethodNotImplementedError()
-
-
-try:
-    some_method()
-except NotImplementedError as e:
-    print('Method is not implemented ', e)
-
-another_method()
+print(kelvinToFahrenheit(273))
+print(int(kelvinToFahrenheit(505.78)))
+print(kelvinToFahrenheit(-5))

@@ -32,7 +32,7 @@ print('printing all integers from 1 to 5')
 for i in range(1, 5):
     print(i)
 
-# We can also have a stepping factpr in the iteration
+# We can also have a stepping factor in the iteration
 print('printing alternate numbers from 1 to 10')
 for i in range(1, 11, 2):
     print(i)
